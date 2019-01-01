@@ -1,0 +1,27 @@
+{
+  "name": "ps-tutorial",
+  "version": "1.0.0",
+  "description": "Pluralsight tutorial on React, GraphQL, Relay and Webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node buildScripts/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriancadag/ps-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriancadag/ps-tutorial/issues"
+  },
+  "homepage": "https://github.com/adriancadag/ps-tutorial#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
